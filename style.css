@@ -10,7 +10,6 @@
 }
 .content-box{
 	margin: 0 auto;
-	min-width: 768px;
 	max-width:1000px;
 }
 .main-menu{
@@ -74,8 +73,50 @@ a:hover{
 	line-height: 130%;
 }
 
-@media (max-width: 768px){
-	body{
+@media (max-width: 760px){
+	/*body{
 		background-color:blue;
+	}*/
+	h1{
+		font-size:25px;
+	}
+	h2{
+		font-size:20px;
+	}
+	.reshed{
+		font-size: 16px;
+	}
+	.main-box > p, .respos{
+		font-size:12px;
+	}
+	li, .main-menu{
+		font-size:12px;
+	}
+	.main-menu{
+		font-weight:bold;
+		padding:0;
+	}
+	li > a{
+		font-weight:bold;
+	}
+	.main-box li, .main-box ul{
+		margin-left:10px;
+		padding-left:0;
+	}
+	.sidebar{
+		padding-top:32px;
+		padding-right:5px;
+		padding-left:0;
+		padding-bottom:0;
+		width:18%
+	}
+	.main-box{
+		width:70%;
+		padding-left:20px;
 	}
 }
+/*@media (max-width: 319px){
+	body{
+		background-color:red;
+	}
+}*/
