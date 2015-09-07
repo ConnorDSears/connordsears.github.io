@@ -73,7 +73,7 @@ a:hover{
 	line-height: 130%;
 }
 
-@media (max-width: 760px){
+@media handheld , (max-width: 760px){
 	/*body{
 		background-color:blue;
 	}*/
